@@ -1,0 +1,28 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.about {
+  background-color: $primary;
+
+  @include section-heading;
+
+  div.bar {
+    position: absolute;
+    background-color: $dark-slate;
+    width: 30%;
+    height: 0.1rem;
+    top: 37%;
+    left: 30%;
+  }
+
+  p,
+  .technologies {
+    font-family: "Space Mono", monospace;
+    font-size: 1.2rem;
+    color: $light-slate;
+  }
+}
+
+.technologies li {
+  color: $light-slate;
+}

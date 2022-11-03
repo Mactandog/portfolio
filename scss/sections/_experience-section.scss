@@ -1,0 +1,42 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.experience {
+    background-color: $primary;
+
+    @include section-heading;
+
+    div.bar {
+        position: absolute;
+        background-color: $dark-slate;
+        width: 30%;
+        height: .1rem;
+        top: 37%;
+        left: 45%;
+    }
+
+    span.company,
+    span.period {
+        font-family: 'TP Mono', monospace;
+        font-weight: 700;
+        color: $secondary;
+        padding-right: 1rem;
+    }
+
+    span.company,
+    span.period {
+        font-family: 'TP Mono', monospace;
+        font-weight: 700;
+    }
+    
+    span.company {
+        font-size: 1.5rem;
+        color: $secondary;
+        padding-right: 1rem;
+    }
+
+    span.period {
+        color: $slate;
+        padding-left: 1rem;
+    }
+}

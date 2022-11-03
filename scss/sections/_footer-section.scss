@@ -1,0 +1,11 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.footer {
+    background-color: $navy;
+    height: 40vh;
+
+    footer {
+        padding: 10rem 0 0 0;
+    }
+}

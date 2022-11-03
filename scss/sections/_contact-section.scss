@@ -1,0 +1,33 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.contact {
+    background-color: $primary;
+
+    @include section-heading;
+
+    div.bar {
+        position: absolute;
+        background-color: $dark-slate;
+        width: 30%;
+        height: .1rem;
+        top: 37%;
+        left: 45%;
+    }
+
+    h1 {
+        font-family: 'TP Mono', monospace;
+        color: $lightest-slate;
+        font-weight: 700;
+        font-size: 3.5rem;
+    }
+
+    h5 {
+        font-family: 'TP Mono', monospace;
+        color: $slate;
+        font-size: 1.3rem;
+        font-weight: 500;
+        margin-bottom: 3rem;
+    }
+
+}

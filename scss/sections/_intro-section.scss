@@ -1,0 +1,27 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.intro {
+    background-color: $primary;
+
+    .hi {
+        color: $secondary;
+        font-family: 'Space Mono', monospace;
+        margin-bottom: 2rem;
+        font-size: 1.5rem;
+    }
+    
+    h1 {
+        color: $lightest-slate;
+    }
+    
+    .isay {
+        color: $slate;
+    }
+    
+    p {
+        color: $dark-slate;
+    }
+}
+
+

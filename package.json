@@ -1,0 +1,25 @@
+{
+  "name": "e-portfolio",
+  "version": "1.0.0",
+  "description": "Ryan Mark Eyana Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "compile:scss": "sass scss:assets/css"
+  },
+  "keywords": [
+    "Bootstrap-v5",
+    "Sass",
+    "HTML",
+    "CSS"
+  ],
+  "author": "Ryan Mark Eyana",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.12",
+    "bootstrap": "^5.2.2",
+    "postcss-cli": "^10.0.0"
+  }
+}

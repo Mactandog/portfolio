@@ -1,0 +1,15 @@
+@use 'custom';
+
+
+// IMPORT COMPONENTS
+@use './components/buttons';
+@use './components/typography';
+
+// IMPORT SECTIONS
+@use './sections/navbar';
+@use './sections/intro-section';
+@use './sections/projects-section';
+@use './sections/about-section';
+@use './sections/experience-section';
+@use './sections/footer-section';
+@use './sections/contact-section';

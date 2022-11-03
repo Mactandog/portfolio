@@ -1,0 +1,39 @@
+@use '../custom' as *;
+
+// GRADIENT MIXIN
+@mixin gradient {
+
+    background: linear-gradient(93deg, rgba($primary, 100%) , rgba($primary, 95%) , rgba($secondary, 100%) );
+}
+
+
+@mixin section-heading {
+    div.row {
+        position: relative;
+
+        h2 {
+            font-family: 'PT Mono', monospace;
+            font-weight: 700;
+            color: $lightest-slate;
+   
+           
+            span {
+                color: $secondary;
+                font-weight: 200;
+                padding-right: 2rem;
+            }
+
+        }
+
+    }
+}
+
+@mixin project {
+    background-color: $light-navy;
+}
+
+@mixin links {
+    a:hover i{
+        color: $secondary;
+    }
+}
