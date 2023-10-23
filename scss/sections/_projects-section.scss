@@ -1,53 +1,51 @@
-@use '../custom' as *;
-@use '../components/mixins' as *;
-
+@use "../custom" as *;
+@use "../components/mixins" as *;
 
 .project {
-    background-color: $primary;
+  background-color: $primary;
 
-   @include section-heading;
+  @include section-heading;
 
-   div.bar {
+  div.bar {
     position: absolute;
     background-color: $dark-slate;
     width: 30%;
-    height: .1rem;
+    height: 0.1rem;
     top: 37%;
     left: 50%;
-    }
+  }
 
-    h1 {
-        color: $light-slate;
-    }
-   p {
-    font-family: 'Space Mono', monospace;
+  h1 {
+    color: $light-slate;
+  }
+  p {
+    font-family: "Space Mono", monospace;
     font-size: 1.2rem;
     color: $light-slate;
-   }
+  }
 
-   span {
+  span {
     color: $slate;
-    padding-right: .75rem;
+    padding-right: 0.75rem;
 
     i {
-        padding-right: .2rem;
-        color: $secondary;
+      padding-right: 0.2rem;
+      color: $secondary;
     }
-   }
+  }
 
-   div.d-grid {
-
+  div.d-grid {
     font-size: larger;
     margin-top: 2rem;
 
     @include links;
     a {
-        text-decoration: none;
-        padding-left: .75rem;
+      text-decoration: none;
+      padding-left: 0.75rem;
 
-        i {
-            color: $slate;
-        }
+      i {
+        color: $slate;
+      }
     }
-   }
+  }
 }
